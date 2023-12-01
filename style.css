@@ -1,0 +1,71 @@
+/* to test that the style sheet is linked */
+/* body{
+    background: #808080;
+} */
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 11px;
+    box-shadow: 0 0 5px black;
+    padding: 20px;
+    border-radius: 5px;
+}  
+
+#counting{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button{
+    padding: 7px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#decrement{
+    background-color: red;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#increase{
+    background-color: green;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#displayValue{
+    font-size: 25px;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 2px;
+    top: 1px;
+    background-color: #808080;
+}
+
+#reset{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+@media (max-width:600px ){
+    #displayValue{
+        display: block;
+        padding: 5px 15px ;
+        text-align: center;
+        margin: 5px;
+        margin-left: 40%;
+        margin-right: 40%;
+          }
+          
+}
